@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x,p;
+printf("Enter the first number: ");
+    scanf("%d",&x);
+    printf("Enter the second number: ");
+    scanf("%d",&p);
+    int res_1 = x+p;
+    int res_2 = x-p;
+    int res_3 = x*p;
+    float res_4 = x/p;
+    float res_5 = x%p;
+    printf ("%d+%d=%d\n",x,p,res_1);
+    printf ("%d-%d=%d\n",x,p,res_2);
+    printf ("%d*%d=%d\n",x,p,res_3);
+    printf ("%d/%d=%1.f\n",x,p,res_4);
+    printf ("%d%%%d=%1.f\n",x,p,res_5);
+}
