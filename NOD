@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+    int nod;
+    printf("Put 2 numbers  ");
+    scanf ("%d",&a);
+    scanf ( "%d",&b);
+    while ((a!=0)||(b!=0)){
+    if (a > b){
+        a=a%b;
+    }else{
+        b=b%a;
+    }
+       nod=a+b;
+    }
+      printf ("Great common devisor is %d\n",nod);
+}
