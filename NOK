@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+    int nod;
+    int nok;
+    printf("Put 2 numbers  ");
+    scanf ("%d/n",&a);
+    scanf ( "%d/n",&b);
+    while ((a!=0)||(b!=0)){
+    if (a > b){
+        a=a%b;
+    }else{
+        b=b%a;
+    }
+       nod=a+b;
+    }
+nok=(a*b)/nod;
+  printf ("Least common multiply is %d/n",nok);
+    return 0;
+}
