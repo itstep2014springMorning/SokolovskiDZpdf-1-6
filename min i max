@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x,p,c,d,a,n,m;
+int min,max=1;
+    printf("Enter the number: ");
+    scanf("%d",&x);
+    printf("Enter the 2 number: ");
+    scanf("%d",&p);
+    printf("Enter the 3 number: ");
+    scanf("%d",&c);
+    printf("Enter the 4 number: ");
+    scanf("%d",&d);
+    printf("Enter the 5 number: ");
+    scanf("%d",&a);
+    printf("Enter the 6 number: ");
+    scanf("%d",&n);
+    printf("Enter the 7 number: ");
+    scanf("%d",&m);
+    if (x>p)  {
+        max=x;
+    }
+    if (max<c) {
+        max=c;
+    }
+    if (max<d)  {
+        max=d;
+    }
+    if (max<a){
+        max=a;
+    }
+    if (max<n){
+        max=n;
+    }
+    if (max<m){
+        max=m;
+    }
+    printf("The maximum number is %d\n", max);
+if (x<p)  {
+        min=x;
+    }
+    if (min>c) {
+        min=c;
+    }
+    if (min>d)  {
+        min=d;
+    }
+    if (min>a){
+        min=a;
+    }
+    if (min>n){
+        min=n;
+    }
+    if (min>m){
+        min=m;
+    }
+    printf("The minimum number is %d\n", min);
+    }
