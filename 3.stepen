@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int i=1;
+int x,p;
+int result=1;
+printf("Enter the number: ");
+    scanf("%d",&x);
+    printf("Enter the degree: ");
+    scanf("%d",&p);
+
+    while (i<=p){
+    result=result*x;
+    i=i+1;
+}
+if (p==0){
+    result=1;
+}
+printf ("%d in degree %d is %d",x,p,result);
+return 0;
+}
