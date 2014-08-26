@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a,b,res;
+int i=1;
+printf("Enter the amount of numbers: ");
+    scanf("%d",&a);
+    printf("Enter the 1 number: ");
+    scanf("%d",&b);
+    printf(" The   product is             %d\n", res = i*b);
+	printf("Enter your 2 number ");
+	scanf("%d", &b);
+	printf(" The product is                 %d\n", res = res*b);
+	printf("Enter your 3 next number ");
+	scanf("%d", &b);
+	printf("   The product is               %d\n", res = res*b);
+	printf("Enter your 4 number ");
+	scanf("%d", &b);
+	printf("   The product is               %d\n", res = res*b);
+	printf("Enter your 5 number ");
+	scanf("%d", &b);
+	printf("   The product is               %d\n", res = res*b);
+	printf("Enter your 6 number ");
+    scanf("%d", &b);
+    printf("  The product is                %d\n", res = res*b);
+}
