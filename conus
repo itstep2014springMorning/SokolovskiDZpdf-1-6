@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+    int h,r;
+    float const pi=3.14;
+printf("Enter the height of the conus: ");
+scanf("%d",&h);
+printf("Enter the radius of the conus: ");
+scanf("%d",&r);
+float square=(pi*r*(r+h));
+printf ("The total surface area of the conus is %4.3f\n",square);
+float volume=((square*h)/3);
+printf ("The volume of the conus is %4.3f\n",volume);
+return 0;
+}
