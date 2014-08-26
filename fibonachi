@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+main() {
+    unsigned int n,i,f1,f2,b;
+    printf ("Press the amount of Fibbonachi members  ");
+    scanf("%d",&n);
+    f1 = 1;
+    f2 = 2;
+    printf("%d %d ",f1,f2);
+    for (i=3; i<=n; i++) {
+        printf("%d ", f1+f2);
+        b = f1;
+        f1 = f2;
+        f2 = b + f1;
+    }
+    printf("\n");
+}
